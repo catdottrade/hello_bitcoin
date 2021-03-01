@@ -1,4 +1,5 @@
 defmodule PrivateKey do
+  # http://www.secg.org/ recommended upper bound to PK
   @n :binary.decode_unsigned(<<
        0xFF,
        0xFF,
